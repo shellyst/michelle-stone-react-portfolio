@@ -2,6 +2,7 @@ import React from "react";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+        <Portfolio></Portfolio>
       </main>
     </div>
   );
