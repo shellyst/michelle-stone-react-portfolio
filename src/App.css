@@ -33,3 +33,7 @@ body {
   color: var(--primary);
   font-size: 40px;
 }
+
+.icon {
+  color: var(--primary);
+}

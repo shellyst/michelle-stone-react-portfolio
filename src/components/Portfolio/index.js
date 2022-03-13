@@ -51,18 +51,14 @@ function Portfolio() {
 
   return (
     <section className="portfolio">
-      {projects.map((project) => {
+      {projects.map((props) => {
         return (
-          <div key={project.name}>
-            <h2 className="projects">{project.name}</h2>
-            <img
-              src={project.img}
-              className="projectPic"
-              alt="project preview"
-            />
-            <h3 className="desc">{project.description}</h3>
-            <a href={project.repository}>Github Repo</a>
-            <a href={project.link}>Deployed Site</a>
+          <div key={props.name}>
+            <h2 className="projects">{props.name}</h2>
+            <img src={props.img} className="projectPic" alt="project preview" />
+            <h3 className="desc">{props.description}</h3>
+            <a href={props.repository}>Github Repo</a>
+            <a href={props.link}>Deployed Site</a>
           </div>
         );
       })}
