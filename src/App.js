@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./components/About";
 import Nav from "./components/Nav";
+import Resume from "./components/Resume";
 import "./App.css";
 
 function App() {
