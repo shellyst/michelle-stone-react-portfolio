@@ -4,12 +4,17 @@ function Nav(props) {
   const categories = ["About", "Portfolio", "Resume", "Contact"];
 
   return (
-    <div className="nav-row">
-      <ul className="flex-row nav-categories">
+    <div className="navbar">
+      <h2>
+        <a className="name-header" href="/">
+          Michelle Stone
+        </a>
+      </h2>
+      <ul className="navtabs">
         {categories.map((category) => (
           <li
             className={
-              props.currentPage === category ? "nav-item is-active" : "nav-item"
+              props.currentPage === category ? "cats is-active" : "cats"
             }
             key={category}
           >
@@ -17,7 +22,7 @@ function Nav(props) {
               href={"#" + category.toLowerCase()}
               onClick={() => props.handlePageChange(category)}
               className={
-                props.currentPage === category ? "nav-link active" : "nav-link"
+                props.currentPage === category ? "cats active" : "cats"
               }
             >
               {category}

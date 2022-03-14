@@ -42,10 +42,21 @@ body {
 }
 
 .navbar {
-  text-align: center;
   display: block;
   width: 100%;
   background-color: #cc8b86;
+  top: 0;
+}
+
+.navtabs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.cats {
+  display: inline-block;
 }
 
 #about {
@@ -54,8 +65,14 @@ body {
   font-size: 40px;
 }
 
-.icon {
-  color: var(--primary);
+.portrait {
+  clip-path: circle();
+  width: 250px;
+}
+
+#aboutMe {
+  margin: 0 auto;
+  max-width: 40%;
 }
 
 li {

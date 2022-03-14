@@ -27,19 +27,10 @@ function Header() {
   };
 
   return (
-    <header>
-      <h2>
-        <a className="name-header" href="/">
-          Michelle Stone
-        </a>
-      </h2>
-      <nav>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      </nav>
-      <main>
-        <div>{renderPage(currentPage)}</div>
-      </main>
-    </header>
+    <div className="flex-row px-1">
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div>{renderPage(currentPage)}</div>
+    </div>
   );
 }
 
