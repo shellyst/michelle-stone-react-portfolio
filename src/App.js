@@ -1,21 +1,12 @@
-import React from "react";
-import About from "./components/About";
-import Nav from "./components/Nav";
-import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
+import React, { useState } from "react";
+import Header from "./components/Header";
 import "./App.css";
-import ContactForm from "./components/Contact";
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <div>
-      <Nav></Nav>
-      <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <ContactForm></ContactForm>
-      </main>
+      <Header></Header>
     </div>
   );
 }

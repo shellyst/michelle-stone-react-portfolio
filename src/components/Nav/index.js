@@ -1,47 +1,31 @@
 import React from "react";
 
-function Nav() {
-  const categories = [
-    {
-      name: "Portfolio",
-      description:
-        "An up-to-date portfolio of my highlighed apps and projects!",
-    },
-    {
-      name: "Resume",
-      description: "My current resume and list of my proficiencies.",
-    },
-  ];
-
-  function categorySelected(name) {
-    console.log(`${name} clicked`);
-  }
+function Nav(props) {
+  const categories = ["About", "Portfolio", "Resume", "Contact"];
 
   return (
-    <header>
-      <h2>
-        <a className="name-header" href="/">
-          Michelle Stone
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="nav-list">
-            <a href="#about">About</a>
+    <div className="nav-row">
+      <ul className="flex-row nav-categories">
+        {categories.map((category) => (
+          <li
+            className={
+              props.currentPage === category ? "nav-item is-active" : "nav-item"
+            }
+            key={category}
+          >
+            <a
+              href={"#" + category.toLowerCase()}
+              onClick={() => props.handlePageChange(category)}
+              className={
+                props.currentPage === category ? "nav-link active" : "nav-link"
+              }
+            >
+              {category}
+            </a>
           </li>
-          <li>
-            <span>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li key={category.name}>
-              <span onClick={() => categorySelected(category.name)}>
-                {category.name}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+        ))}
+      </ul>
+    </div>
   );
 }
 
