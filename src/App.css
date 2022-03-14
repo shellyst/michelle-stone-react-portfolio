@@ -1,9 +1,3 @@
-/* Fonts */
-/* Header/Nav/Footer */
-/* font-family: 'Heebo', sans-serif */
-/* Main Body */
-/* font-family: 'Hind', sans-serif */
-
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -85,4 +79,23 @@ nav li {
 
 nav a:hover {
   text-decoration: none;
+}
+
+a:hover {
+  color: #1a1423;
+}
+
+input,
+textarea {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
 }
