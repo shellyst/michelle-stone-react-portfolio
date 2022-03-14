@@ -20,7 +20,9 @@ function Nav() {
   return (
     <header>
       <h2>
-        <a href="/">Michelle Stone</a>
+        <a className="name-header" href="/">
+          Michelle Stone
+        </a>
       </h2>
       <nav>
         <ul className="flex-row">
@@ -32,7 +34,9 @@ function Nav() {
           </li>
           {categories.map((category) => (
             <li key={category.name}>
-                  <span onClick={() => categorySelected(category.name)}>{category.name}</span>
+              <span onClick={() => categorySelected(category.name)}>
+                {category.name}
+              </span>
             </li>
           ))}
         </ul>

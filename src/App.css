@@ -16,9 +16,29 @@ main {
   --accent: #b75d69;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Heebo", sans-serif;
+  margin: 5px 0;
+  color: var(--secondy);
+}
+
+p,
+span,
+a {
+  font-family: "Hind", sans-serif;
+  color: var(--tertiary);
+}
+
 body {
   background-color: #eacdc2;
   text-align: center;
+}
+
+.name-header {
+  font-size: 3.5rem;
+  text-decoration: none;
 }
 
 .navbar {
@@ -36,4 +56,16 @@ body {
 
 .icon {
   color: var(--primary);
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: none;
 }
