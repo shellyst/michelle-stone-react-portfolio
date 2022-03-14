@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/michelle-stone-react-portfolio/static/css/main.56a7b0d7.css",
+    "main.js": "/michelle-stone-react-portfolio/static/js/main.8b13451f.js",
+    "static/js/787.a7aca55b.chunk.js": "/michelle-stone-react-portfolio/static/js/787.a7aca55b.chunk.js",
+    "static/media/photo-portfolio.png": "/michelle-stone-react-portfolio/static/media/photo-portfolio.9172870e8ce3621b2a01.png",
+    "static/media/passionproject.png": "/michelle-stone-react-portfolio/static/media/passionproject.d94f6bccb1504f0fda10.png",
+    "static/media/weather.png": "/michelle-stone-react-portfolio/static/media/weather.f5cdbe1bf074c3204c72.png",
+    "static/media/petbook.png": "/michelle-stone-react-portfolio/static/media/petbook.9babf15285b1379664de.png",
+    "static/media/group.png": "/michelle-stone-react-portfolio/static/media/group.04c063464f379f1c06cd.png",
+    "static/media/profile-pic.jpeg": "/michelle-stone-react-portfolio/static/media/profile-pic.cabe989830723f9ca866.jpeg",
+    "index.html": "/michelle-stone-react-portfolio/index.html",
+    "main.56a7b0d7.css.map": "/michelle-stone-react-portfolio/static/css/main.56a7b0d7.css.map",
+    "main.8b13451f.js.map": "/michelle-stone-react-portfolio/static/js/main.8b13451f.js.map",
+    "787.a7aca55b.chunk.js.map": "/michelle-stone-react-portfolio/static/js/787.a7aca55b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a7b0d7.css",
+    "static/js/main.8b13451f.js"
+  ]
+}
