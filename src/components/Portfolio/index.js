@@ -4,11 +4,20 @@ import watch from "../../assets/images/group.png";
 import photoport from "../../assets/images/photo-portfolio.png";
 import weather from "../../assets/images/weather.png";
 import passion from "../../assets/images/passionproject.png";
+import boats from "../../assets/images/boats.png";
 
 // TO DO: Get screenshots of 4-6 projects.
 
 function Portfolio() {
   const [projects] = useState([
+    {
+      name: "Boats Boats Boats - E-Commerce",
+      description:
+        "A React based web application for selling (mock) luxury yachts!",
+      img: boats,
+      repository: "https://github.com/shellyst/full-stack-ecommerce-1",
+      deployed: "/",
+    },
     {
       name: "PetBook Social Media",
       description: "A social media app for sharing and liking of pet photos.",
