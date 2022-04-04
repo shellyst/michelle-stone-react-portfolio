@@ -16,18 +16,19 @@ function Resume() {
       </div>
       <div className="column">
         <h1>My Resume!</h1>
-        <p>Downloadable Resume goes here.</p>
-        <a
-          className="download-btn"
-          href="https://drive.google.com/file/d/1QfMEi4OzZJ87l52_oUhZxzV93GGP3pkP/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="icon">
-            <i className="fa-solid fa-arrow-down-to-bracket"></i>
-          </span>
-          <span>Download my resume!</span>
-        </a>
+        <button>
+          <a
+            className="download-btn"
+            href="https://drive.google.com/file/d/1Q4IaTv0Bds8dKu-mhRXYX2Un6rkXJ5Nk/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="icon">
+              <i className="fa-solid fa-arrow-down-to-bracket"></i>
+            </span>
+            <span>Download my resume!</span>
+          </a>
+        </button>
       </div>
     </div>
   );
