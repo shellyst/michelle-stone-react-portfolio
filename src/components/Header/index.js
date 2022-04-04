@@ -27,10 +27,10 @@ function Header() {
   };
 
   return (
-    <div className="flex-row px-1">
+    <header className="flex-row px-1">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>{renderPage(currentPage)}</div>
-    </div>
+    </header>
   );
 }
 
