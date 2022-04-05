@@ -3,9 +3,8 @@ import React from "react";
 function Resume() {
   return (
     <div className="resume-section">
-      <div className="column">
-        <h1>Skills & Proficiencies</h1>
-        <p className="skills">Full-Stack</p>
+      <div className="card">
+        <h1 className="skills-sec">Skills & Proficiencies</h1>
         <ul>
           <li>HTML, CSS, Javascript</li>
           <li>Git, Github, Heroku</li>
@@ -23,10 +22,17 @@ function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="icon">
-              <i className="fa-solid fa-arrow-down-to-bracket"></i>
-            </span>
             <span>Download my resume!</span>
+          </a>
+        </button>
+        <button>
+          <a
+            className="linked-btn"
+            href="https://www.linkedin.com/in/michelle-cstone91/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>My LinkedIn</span>
           </a>
         </button>
       </div>
