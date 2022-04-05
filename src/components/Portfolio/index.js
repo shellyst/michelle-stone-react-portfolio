@@ -14,6 +14,7 @@ function Portfolio() {
       name: "Boats Boats Boats - E-Commerce",
       description:
         "A React based web application for selling (mock) luxury yachts!",
+      technologies: "HTML, CSS, React.js, Express.js, MongoDB.",
       img: boats,
       repository: "https://github.com/shellyst/full-stack-ecommerce-1",
       deployed: "/",
@@ -21,6 +22,8 @@ function Portfolio() {
     {
       name: "PetBook Social Media",
       description: "A social media app for sharing and liking of pet photos.",
+      technologies:
+        "HTML, CSS, Javascript, Node.js, Express.js, SQL, Handlebars.js.",
       img: petbook,
       repository: "https://github.com/shellyst/group6-social-media",
       deployed: "https://infinite-escarpment-26658.herokuapp.com/",
@@ -30,31 +33,19 @@ function Portfolio() {
       description:
         "App designed to help users look up movie information and streaming sites using APIs",
       img: watch,
+      technologies: "HTML, CSS, Javascript, Node.js, Third-Part APIs.",
       repository: "https://github.com/shellyst/what-should-i-watch",
       deployed: "https://shellyst.github.io/what-should-i-watch/",
     },
-    {
-      name: "Photo Portfolio",
-      description: "Photo blog to display photos based on category using React",
-      img: photoport,
-      repository: "https://github.com/shellyst/photo-port",
-      deployed:
-        "https://github.com/shellyst/photo-port/deployments/activity_log?environment=github-pages",
-    },
+
     {
       name: "Weather App",
       description:
-        "React app to accurately predict the weather for any given city",
+        "React app to accurately predict the weather for any given city, and provide an accurate 5-day forecast.",
       img: weather,
+      technologies: "HTML, CSS, React.js, APIs.",
       repository: "https://github.com/shellyst/weather-react-app",
       deployed: "https://cocky-minsky-0c314e.netlify.app/",
-    },
-    {
-      name: "Passion Project",
-      description: "First ever project using basic HTML and CSS",
-      img: passion,
-      repository: "https://github.com/shellyst/passion-project",
-      deployed: "https://shellyst.github.io/passion-project/",
     },
   ]);
 
@@ -62,12 +53,24 @@ function Portfolio() {
     <section className="portfolio">
       {projects.map((props) => {
         return (
-          <div key={props.name}>
-            <h2 className="projects">{props.name}</h2>
-            <img src={props.img} className="projectPic" alt="project preview" />
-            <h3 className="desc">{props.description}</h3>
-            <a href={props.repository}>Github Repo</a>
-            <a href={props.link}>Deployed Site</a>
+          <div className="card-body">
+            <div key={props.name}>
+              <h2 className="projects">{props.name}</h2>
+              <img
+                src={props.img}
+                className="projectPic"
+                alt="project preview"
+              />
+              <h3 className="desc">{props.description}</h3>
+              <a href={props.repository}>
+                <button>Github Repo</button>
+              </a>
+              <a href={props.link}>
+                <button>Deployed Site</button>
+              </a>
+              <p className="techs">{props.technologies}</p>
+              <p className="descs">{props.description}</p>
+            </div>
           </div>
         );
       })}

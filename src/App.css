@@ -116,11 +116,16 @@ button {
   border-radius: 6px;
   cursor: pointer;
   padding: 10px;
+  margin-bottom: 5px;
+}
+
+.projectPic {
+  width: 30%;
 }
 
 .footer {
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0;
   height: 60px;
   text-align: center;
