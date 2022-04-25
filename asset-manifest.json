@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/michelle-stone-react-portfolio/static/css/main.0f9837a8.css",
-    "main.js": "/michelle-stone-react-portfolio/static/js/main.998158ac.js",
+    "main.css": "/michelle-stone-react-portfolio/static/css/main.713a6123.css",
+    "main.js": "/michelle-stone-react-portfolio/static/js/main.62ae3f50.js",
     "static/js/787.a7aca55b.chunk.js": "/michelle-stone-react-portfolio/static/js/787.a7aca55b.chunk.js",
     "static/media/boats.png": "/michelle-stone-react-portfolio/static/media/boats.b3c463f372c0ed3850cd.png",
     "static/media/profile-pic.jpg": "/michelle-stone-react-portfolio/static/media/profile-pic.5a526a5c5c06d3e90a47.jpg",
@@ -11,12 +11,12 @@
     "static/media/petbook.png": "/michelle-stone-react-portfolio/static/media/petbook.9babf15285b1379664de.png",
     "static/media/group.png": "/michelle-stone-react-portfolio/static/media/group.04c063464f379f1c06cd.png",
     "index.html": "/michelle-stone-react-portfolio/index.html",
-    "main.0f9837a8.css.map": "/michelle-stone-react-portfolio/static/css/main.0f9837a8.css.map",
-    "main.998158ac.js.map": "/michelle-stone-react-portfolio/static/js/main.998158ac.js.map",
+    "main.713a6123.css.map": "/michelle-stone-react-portfolio/static/css/main.713a6123.css.map",
+    "main.62ae3f50.js.map": "/michelle-stone-react-portfolio/static/js/main.62ae3f50.js.map",
     "787.a7aca55b.chunk.js.map": "/michelle-stone-react-portfolio/static/js/787.a7aca55b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f9837a8.css",
-    "static/js/main.998158ac.js"
+    "static/css/main.713a6123.css",
+    "static/js/main.62ae3f50.js"
   ]
 }
