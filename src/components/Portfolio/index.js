@@ -61,7 +61,7 @@ function Portfolio() {
                 className="projectPic"
                 alt="project preview"
               />
-              <h3 className="desc">{props.description}</h3>
+              <p className="descs">{props.description}</p>
               <a href={props.repository}>
                 <button>Github Repo</button>
               </a>
@@ -69,7 +69,6 @@ function Portfolio() {
                 <button>Deployed Site</button>
               </a>
               <p className="techs">{props.technologies}</p>
-              <p className="descs">{props.description}</p>
             </div>
           </div>
         );

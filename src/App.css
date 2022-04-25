@@ -132,6 +132,10 @@ button {
   margin-right: 5px;
 }
 
+.projects {
+  color: #301b3f;
+}
+
 .projectPic {
   width: 30%;
 }
