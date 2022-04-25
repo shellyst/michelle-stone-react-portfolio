@@ -42,6 +42,22 @@ function ContactForm() {
   return (
     <section>
       <h1>Contact Me!</h1>
+      <div class="card">
+        <h5 class="mt-3">Email Me</h5>
+        <i class="fas fa-envelope"></i>
+        <span class="contact-text mx-2">
+          Reach out via email, and let's discuss your next project!
+        </span>
+        <div class="contact-button">
+          <a
+            href="mailto:michellechristine.s91@gmail.com"
+            class="card-link cnt-btn email-btn"
+          >
+            Email me!
+          </a>
+        </div>
+      </div>
+
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="field">
           <label htmlFor="name">Name:</label>

@@ -136,8 +136,16 @@ button {
   color: #301b3f;
 }
 
+form {
+  margin-top: 20px;
+}
+
 .projectPic {
   width: 30%;
+}
+
+.email-btn {
+  color: #301b3f;
 }
 
 .footer {
