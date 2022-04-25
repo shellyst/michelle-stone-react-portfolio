@@ -28,7 +28,7 @@ function Resume() {
         <button>
           <a
             className="linked-btn"
-            href="https://www.linkedin.com/in/michelle-cstone91/"
+            href="https://www.linkedin.com/in/michelle-cstone/"
             target="_blank"
             rel="noreferrer"
           >
